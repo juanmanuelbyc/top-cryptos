@@ -19,7 +19,7 @@ const Facade = (props) => {
       </div>
       <div className="facadeMiddleSection">
         <div className="facadeImageContainer">
-          <img className="facadeImage" src={image} alt="dddd" />
+          <img className="facadeImage" src={image} alt="cryptoImage" />
         </div>
         <div className="facadeTextsContainer">
           <h2 className="facadeMainText">{mainText}</h2>

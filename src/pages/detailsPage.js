@@ -1,6 +1,6 @@
-  import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Facade from '../components/facade';
-import Detail from '../components/Detail';
+import Detail from '../components/detail';
 
 const DetailsPage = () => {
   const cryptocurrencies = useSelector((state) => state.cryptosReducer);
