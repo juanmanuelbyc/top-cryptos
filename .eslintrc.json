@@ -13,7 +13,7 @@
     "sourceType": "module",
     "project": ["tsconfig.json"]
   },
-  "extends": ["airbnb-typescript", "airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
