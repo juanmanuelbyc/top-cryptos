@@ -18,7 +18,7 @@ const initialState = [
   },
 ];
 
-const cryptosReducer = (state = initialState, action) => {
+const cryptosReducer = (action, state = initialState) => {
   switch (action.type) {
     case FETCH_DATA_FULFILLED:
       return action.payload;
