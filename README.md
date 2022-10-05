@@ -5,9 +5,23 @@ The top cryptocurrencies consists of list of important crypto currencies, and th
 - The main section displays a list of the top 10 cryptocurrencies. It shows the names, the logo and the price in USD up to date.
 - The Details section displays a list of the detailed statistics of the crypto selected by dde user.
 
+## Preview
+
+This is how this project looks like
+
+[here!](src/assets/screenshot.jpg)
 
 # Live Demo
-Work In Progress
+
+Here is the live version
+
+[here!](https://top-crypstos.netlify.app/Home)
+
+## Project Explanation
+
+Try watching my project explanation
+
+[here!](https://www.loom.com/share/c595060aae4f4eb38e6bda180d6c0678)
 
 ## Built With
 - React, Redux, Jest, HTML5, CSS3, ES6
@@ -76,7 +90,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - Twitter: [@twitter](https://twitter.com/juanmanueldiar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-díaz-5281b3111/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -86,6 +99,9 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+Special credits to  Nelson Sakwa: the author of the original design. His work is available in following link
+[here!](https://www.behance.net/sakwadesignstudio)
 
 - [React Tutorials](https://ibaslogic.com/react-tutorial-for-beginners/)
 - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
