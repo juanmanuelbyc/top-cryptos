@@ -13,18 +13,18 @@
     "sourceType": "module",
     "project": ["tsconfig.json"]
   },
-  "extends": ["airbnb-typescript", "airbnb-base", "airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "extends": ["airbnb-typescript/base", "airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
   "rules": {
     "import/extensions": [
       "error",
-      "ignorePackages",
+      "always",
       {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
+          "pattern": {
+              "jsx": "never",
+              "tsx": "never"
+          }
+        }
    ],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
