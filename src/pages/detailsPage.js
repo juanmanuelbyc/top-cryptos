@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import Detail from '../components/detail.js';
+import Detail from '../components/detail';
 import Facade from '../components/facade';
 
 const DetailsPage = () => {
