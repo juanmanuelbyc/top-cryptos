@@ -21,6 +21,7 @@
       "always",
       {
           "pattern": {
+              "js": "never",
               "jsx": "never",
               "tsx": "never"
           }
