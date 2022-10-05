@@ -1,6 +1,7 @@
-import { useSelector } from 'react-redux';
-import Facade from '../components/facade';
-import Detail from '../components/detail';
+import { useSelector } from "react-redux";
+import Detail from "../components/detail";
+import Facade from "../components/facade";
+
 
 const DetailsPage = () => {
   const cryptocurrencies = useSelector((state) => state.cryptosReducer);
@@ -17,11 +18,7 @@ const DetailsPage = () => {
         image={cryptocurrency.image}
       />
       {data.map((detail) => (
-        <Detail
-          key={detail[0]}
-          title={detail[0]}
-          value={detail[1]}
-        />
+        <Detail key={detail[0]} title={detail[0]} value={detail[1]} />
       ))}
     </div>
   );

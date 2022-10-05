@@ -16,6 +16,7 @@
   "extends": ["airbnb-base", "airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
   "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/extensions": [
       "error",
       "always",
