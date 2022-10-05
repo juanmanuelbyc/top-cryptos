@@ -21,7 +21,7 @@ Here is the live version
 
 Try watching my project explanation
 
-[here!]()
+[here!](https://www.loom.com/share/c595060aae4f4eb38e6bda180d6c0678)
 
 ## Built With
 - React, Redux, Jest, HTML5, CSS3, ES6
