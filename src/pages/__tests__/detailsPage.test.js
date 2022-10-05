@@ -1,12 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
+import { createMemoryHistory } from 'history';
+import { Router } from 'react-router-dom';
 import store from '../../redux/configStore';
 import DetailsPage from '../detailsPage';
 import '@testing-library/jest-dom/extend-expect';
-import { Router } from 'react-router-dom';
-import {createMemoryHistory} from 'history';
-
 
 const TestDetailsPage = () => {
   const history = createMemoryHistory();
@@ -22,16 +21,14 @@ const TestDetailsPage = () => {
 render(<TestDetailsPage />);
 
 describe('Details page', () => {
-  
   it('gets elements', () => {
     expect(screen.getByText('current_price')).toBeInTheDocument();
   });
 
-it('renders correctly', () => {
-  const tree = renderer.create(
-    <TestDetailsPage />,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
+  it('renders correctly', () => {
+    const tree = renderer.create(
+      <TestDetailsPage />,
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

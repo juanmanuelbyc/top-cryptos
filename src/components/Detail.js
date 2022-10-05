@@ -16,4 +16,8 @@ Detail.propTypes = {
   value: PropTypes.number,
 };
 
+Detail.defaultProps = {
+  value: null,
+};
+
 export default Detail;
