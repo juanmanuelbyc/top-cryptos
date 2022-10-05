@@ -17,6 +17,12 @@ Here is the live version
 
 [here!](https://top-crypstos.netlify.app/Home)
 
+## Project Explanation
+
+Try watching my project explanation
+
+[here!]()
+
 ## Built With
 - React, Redux, Jest, HTML5, CSS3, ES6
 
